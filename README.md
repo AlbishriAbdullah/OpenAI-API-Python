@@ -1,5 +1,5 @@
 # OpenAI-API-Python
-This repository for the task of 4th week. Which is about write python program to uses the OpenAI API to take input from the user and display the response.
+This repository for the task of 4th week in Web Development and API. Which is about write python program to uses the OpenAI API to take input from the user and display the response.
 
 Task Requirement:
 Write Python or Node.js code that uses the OpenAI API to take input from the user and display the response.
