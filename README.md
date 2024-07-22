@@ -3,8 +3,8 @@ This repository for the task of 4th week. Which is about write python program to
 
 Task Requirement:
 Write Python or Node.js code that uses the OpenAI API to take input from the user and display the response.
-----------------------------------
-Steps:
+------------------------
+Note: For privacy policy of GitHub and OpenAI, I can not upload .env file which contains the API Key.
 
 I followed the "Developer quickstart" from the OpenAI wibsite.
 
@@ -26,9 +26,8 @@ In i.gitignore file just write:
 
 Step 3: Sending API request:
 
-I ask the AI the following questions: What is the Capital City of Japan and Russia ?
+I ask the AI the following questions: What is the Capital City of Japan and Russia ? and he answerd me as follows:
 
-the response:
 
   ![image](https://github.com/user-attachments/assets/bbfd63ae-ae6b-4748-98a1-921f6176b941)
 
