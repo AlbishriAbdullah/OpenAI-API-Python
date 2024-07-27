@@ -24,15 +24,8 @@ In i.gitignore file just write:
 
       .env
 
-Step 3: Sending API request:
+Step 3 (Updated): Interacting with ChatGPT:
 
-I ask the AI the following questions: What is the Capital City of Japan and Russia ? and he answerd me as follows:
-
-
-  ![image](https://github.com/user-attachments/assets/bbfd63ae-ae6b-4748-98a1-921f6176b941)
-
-
-
-
+![image](https://github.com/user-attachments/assets/81816086-644a-4b59-bc7a-84266eb1a066)
 
 
