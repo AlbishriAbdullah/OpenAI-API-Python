@@ -1,12 +1,19 @@
 from openai import OpenAI
+
 client = OpenAI()
 
-completion = client.chat.completions.create(
-  model="gpt-4o-mini",
-  messages=[
-    {"role": "system", "content": "OpenAI API"},
-    {"role": "user", "content": "What is the Capital City of Japan and Russia ?"}
-  ]
-)
+while True:
+    text = input("YOU: Enter your question ('exit' to quit): ")
 
-print(completion.choices[0].message)
+    if text.lower() == 'exit':
+        break
+
+    completion = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "OpenAI API"},
+            {"role": "user", "content": text}
+        ]
+    )
+
+    print("AI: ", completion.choices[0].message.content)
